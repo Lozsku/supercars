@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">    
+        <title>Super Cars Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/fer1logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>  <!--this is for close button-->
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CARS</a></li>
+                        <li><a href="">INFO</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>  <!--this is for menu button-->
+            </nav>
+            <div class="text-box">
+                <h1>Most Beautiful Cars</h1>
+                <p>In racing, acceleration is paramount and the main route to victory, so supremely fast acceleration has become the <br>
+                standard for the supercar style of vehicle. Acceleration is also how supercars are able to move so quickly, <br>
+                creating energy to make quick turns and sudden jolts of power.</p>
+                <a href="" class="hero-btn">Vist to see More</a>
+
+            </div>
+        </section>
+        <!-----Course----->
+
+        <section class="course">
+            <h1>Cars We Have</h1>
+            <p>Benz with black blue bmw red GT yello bettle etc.</p>
+            
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Benz</h3>
+                    <p>Mercedes-Benz, commonly referred to as Mercedes, is a German luxury and commercial 
+                        vehicle automotive brand established in 1926. Mercedes-Benz AG is headquartered 
+                        in Stuttgart, Baden-Wurttemberg, Germany.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Bmw</h3>
+                    <p>Bayerische Motoren Werke AG, commonly referred to as BMW, is a 
+                        German multinational manufacturer of luxury vehicles and motorcycles 
+                        headquartered in Munich, Bavaria, Germany.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Ferari</h3>
+                    <p>Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, 
+                        Italy. Founded by Enzo Ferrari in 1939 from the Alfa Romeo racing division as 
+                        Auto Avio Costruzioni, the company built its first car in 1940, and produced 
+                        its first Ferrari-badged car in 1947.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="onroad">
+            <h1>The Super Cars on road!!</h1>
+            <p>Sit tight and fasten your seat belts....boom..boom!</p>
+            <div class="row">
+                <div class="road-col">
+                    <img src="images/benz_black.jpg">
+                    <div class="layer">
+                        <h3>BENZ</h3>
+                    </div>
+                    
+                </div>
+                <div class="road-col">
+                    <img src="images/bmw.jpg">
+                    <div class="layer">
+                        <h3>BMW</h3>
+                    </div>
+                </div>
+                <div class="road-col">
+                    <img src="images/red_car.jpg">
+                    <div class="layer">
+                        <h3>RED CAR</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Spefications-->
+        <section class="looks">
+            <h1>Specifications</h1>
+            <p>Not only outside you should also look inside</p>
+            <div class="row">
+                <div class="looks-col">
+                    <img src="images/ferainterior.jpg">
+                        <h3>World class look</h3>
+                        <p>yes papa its the best look you will ever see</p>
+                    
+                </div>
+                <div class="looks-col">
+                    <img src="images/enginesexy.jpg">
+                   
+                        <h3>Sexy Engine</h3>
+                        <p>sound of the engine is soo good to hear its very energitic</p>
+                    
+                </div>
+                <div class="looks-col">
+                    <img src="images/back_light.jpg">
+                    
+                        <h3>The Lights</h3>
+                        <p>The gourgious light are fabulous to watch</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h1>For More Information<br>Anywhere From The World</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+
+        </section>
+
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Experts in making costumised super cars all over the world.</p>
+            <div class="icons">
+                <i class="fa fa-facebook" onclick="location.href='https://www.facebook.com/profile.php?id=100007002586219'"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram" onclick="location.href='https://www.instagram.com/harsha.__56/'"></i>
+                <i class="fa fa-linkedin" onclick="location.href='https://www.linkedin.com/in/harsha-vardhan-1ab922218'"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> on Super Cars</p>
+        </section>
+
+
+
+    <!--javascript for toggle menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+    </body>
+</html>
